@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="signalrdemo">
+<head>
+	<title>My index</title>
+	<!-- bower:css -->
+	<!-- endinject -->
+	<!-- inject:css -->
+	<!-- endinject -->
+</head>
+<body>
+
+	<div ui-view="navbar"></div>
+
+	<div class="container">
+
+		<div class="demo-body">
+			<div ui-view></div>
+		</div>
+	</div>
+
+
+	<!-- bower:js -->
+	<!-- endinject -->
+
+	<script src="http://localhost:8080/signalr/hubs"></script>
+	<script src="tmp/templates.js"></script>
+
+	<!-- inject:js -->
+	<!-- endinject -->
+</body>
+</html>
